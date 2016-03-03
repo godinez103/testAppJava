@@ -16,7 +16,7 @@ public class TesteAluno {
 
 	private static void validaAluno(Aluno aluno) {
 		if (aluno.getNome() == null) {
-			System.out.println("Aluno sem valor");
+			System.out.println("Aluno não inicializado");
 		} else {
 			System.out.println(aluno);
 
